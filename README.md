@@ -5,6 +5,7 @@
 ## メンテナンス方針
 
 - 時雨堂がこのライブラリを利用している限りはメンテナンスを行う
+  - [OpenAyame/ayame: WebRTC Signaling Server Ayame](https://github.com/OpenAyame/ayame)
 - 最新の Go に追従する
 - shiguredo ブランチで開発を行う
 - 日本語コミットログ
