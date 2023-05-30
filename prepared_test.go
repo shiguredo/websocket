@@ -43,7 +43,7 @@ func TestPreparedMessage(t *testing.T) {
 		c.SetCompressionLevel(tt.compressionLevel)
 
 		// Seed random number generator for consistent frame mask.
-		rand.Seed(1234)
+		rand.New(rand.NewSource(1234))
 
 		if err := c.WriteMessage(tt.messageType, data); err != nil {
 			t.Fatal(err)
@@ -59,7 +59,7 @@ func TestPreparedMessage(t *testing.T) {
 		copy(data, "hello world")
 
 		// Seed random number generator for consistent frame mask.
-		rand.Seed(1234)
+		rand.New(rand.NewSource(1234))
 
 		buf.Reset()
 		if err := c.WritePreparedMessage(pm); err != nil {

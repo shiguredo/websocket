@@ -49,7 +49,6 @@ type cstHandler struct{ *testing.T }
 type cstServer struct {
 	*httptest.Server
 	URL string
-	t   *testing.T
 }
 
 const (
