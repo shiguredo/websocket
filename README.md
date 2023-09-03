@@ -2,6 +2,14 @@
 
 これは [gorilla/websocket: A fast, well\-tested and widely used WebSocket implementation for Go\.](https://github.com/gorilla/websocket) をフォークして、時雨堂がメンテナンスを行っています。
 
+
+## 今後の予定
+
+- https://github.com/gorilla/websocket
+  - メンテナンスが再開したので正式リリースがされたらこのリポジトリはアーカイブする
+- https://github.com/nhooyr/websocket
+  - こちらが積極的にメンテナンスされていく場合、切り替え予定
+
 ## メンテナンス方針
 
 - 時雨堂がこのライブラリを利用している限りはメンテナンスを行う
