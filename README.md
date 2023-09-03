@@ -6,8 +6,10 @@
 ## 今後の予定
 
 - https://github.com/gorilla/websocket
+  - https://gorilla.github.io/blog/2023-07-17-project-status-update/
   - メンテナンスが再開したので正式リリースがされたらこのリポジトリはアーカイブする
 - https://github.com/nhooyr/websocket
+  - https://github.com/nhooyr/websocket/issues/402
   - こちらが積極的にメンテナンスされていく場合、切り替え予定
 
 ## メンテナンス方針
