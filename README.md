@@ -1,29 +1,4 @@
-# Gorilla WebSocket
+このリポジトリはメンテナンスを終了しました。
 
-これは [gorilla/websocket: A fast, well\-tested and widely used WebSocket implementation for Go\.](https://github.com/gorilla/websocket) をフォークして、時雨堂がメンテナンスを行っています。
-
-
-## 今後の予定
-
-- https://github.com/gorilla/websocket
-  - https://gorilla.github.io/blog/2023-07-17-project-status-update/
-  - メンテナンスが再開したので正式リリースがされたらこのリポジトリはアーカイブする
-- https://github.com/nhooyr/websocket
-  - https://github.com/nhooyr/websocket/issues/402
-  - こちらが積極的にメンテナンスされていく場合、切り替え予定
-
-## メンテナンス方針
-
-- 時雨堂がこのライブラリを利用している限りはメンテナンスを行う
-  - [OpenAyame/ayame: WebRTC Signaling Server Ayame](https://github.com/OpenAyame/ayame)
-- 最新の Go に追従する
-- shiguredo ブランチで開発を行う
-- 日本語コミットログ
-- 日本語ドキュメント
-- 仕様の破壊的変更は行わない
-- メジャーバージョンアップはせず変更があるたびマイナーバージョンを上げ続ける
-- 追従やバグへの修正の PR のみ受け付ける
-
-## インストール
-
-    go get github.com/shiguredo/websocket
+メンテナンスを再開した、公式リポジトリをご利用ください。
+https://github.com/gorilla/websocket
